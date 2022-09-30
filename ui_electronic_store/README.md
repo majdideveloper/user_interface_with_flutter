@@ -4,7 +4,8 @@
 in this project i just create user interface of electronic store:
 - home screen
 - drawer screen </br>
-i inspiration design from this image
+
+<p>inspiration design from this image</p>
 <p align="center">
     <img src="https://user-images.githubusercontent.com/95164900/193013980-6ad55175-7ac9-4526-83ec-248c8b5cc396.png" width="600" height="600"/>
 </p>

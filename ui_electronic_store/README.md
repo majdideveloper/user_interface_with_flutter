@@ -3,7 +3,7 @@
 
 in this project i just create user interface of electronic store:
 - home screen
-- drawer screen </br>
+- drawer screen 
 
 <p>inspiration design from this image</p>
 <p align="center">

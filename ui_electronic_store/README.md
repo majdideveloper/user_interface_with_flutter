@@ -1,16 +1,31 @@
+
 # ui_electronic_store
 
-A new Flutter project.
+in this project i just create user interface of electronic store:
+- home screen
+- drawer screen 
 
-## Getting Started
+<p>inspiration design from this image</p>
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/95164900/193013980-6ad55175-7ac9-4526-83ec-248c8b5cc396.png" width="600" height="600"/>
+</p>
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Authors
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [majdiaribi](https://github.com/majdideveloper)
+
+
+## Screenshots
+<table>
+   <tr>
+        <th scope="col"><img src="https://user-images.githubusercontent.com/95164900/193011331-b643639a-4ff1-4c0e-bbaa-6031f0bd75a3.png" width="428" height="926"/> </th>
+        <th scope="col"><img src="https://user-images.githubusercontent.com/95164900/193011321-1c0f2b50-8c2a-4515-a14c-7463fd0a91f4.png" width="428" height="926"/></th>  
+   </tr>
+</table>
+ 
+
+
+
+

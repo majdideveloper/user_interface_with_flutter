@@ -36,7 +36,7 @@ class SignUpScreeen extends StatelessWidget {
               children: [
                 const WidgetLogo(),
                 Padding(
-                  padding: const EdgeInsets.all(6),
+                  padding: const EdgeInsets.all(12),
                   child: TextField(
                     style: Theme.of(context).textTheme.titleSmall,
                     decoration: InputDecoration(

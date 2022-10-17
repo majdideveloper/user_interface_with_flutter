@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:ui_login_page/config/themes/theme.dart';
 import 'package:ui_login_page/widgets/bottom_text.dart';
+import 'package:ui_login_page/widgets/button_widget.dart';
 import 'package:ui_login_page/widgets/helper_widget.dart';
+import 'package:ui_login_page/widgets/remember_me_widget.dart';
+import 'package:ui_login_page/widgets/text_field_widget.dart';
 import 'package:ui_login_page/widgets/three_button_widget.dart';
 import 'package:ui_login_page/widgets/widget_logo.dart';
 
@@ -29,42 +30,23 @@ class SignUpScreeen extends StatelessWidget {
             decoration: const BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.all(
-                Radius.circular(50.0),
+                Radius.circular(100.0),
               ),
             ),
             child: Column(
               children: [
                 const WidgetLogo(),
-                Padding(
-                  padding: const EdgeInsets.all(12),
-                  child: TextField(
-                    style: Theme.of(context).textTheme.titleSmall,
-                    decoration: InputDecoration(
-                      suffixIcon: const Icon(Icons.password),
-                      prefixIcon: const Icon(Icons.mail),
-                      focusedBorder: OutlineInputBorder(
-                          borderSide: const BorderSide(
-                            width: 1,
-                            color: Colors.black,
-                          ),
-                          borderRadius: BorderRadius.circular(50.0)),
-                      disabledBorder: OutlineInputBorder(
-                          borderSide: const BorderSide(
-                            width: 1,
-                            color: Colors.black,
-                          ),
-                          borderRadius: BorderRadius.circular(50.0)),
-                      enabledBorder: OutlineInputBorder(
-                          borderSide: const BorderSide(
-                            width: 1,
-                            color: Colors.black,
-                          ),
-                          borderRadius: BorderRadius.circular(50.0)),
-                      labelText: 'User Name',
-                      hintText: 'Enter Your Name',
-                    ),
-                  ),
+                const TextFieldWidget(),
+                const TextFieldWidget(),
+                Row(
+                  children: [
+                    SizedBox(
+                        width: MediaQuery.of(context).size.width * 0.8,
+                        child: const RememberMeWidget()),
+                  ],
                 ),
+                smallVerticalSpacer,
+                const ButtonWidget(),
               ],
             ),
           ),

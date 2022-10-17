@@ -8,8 +8,8 @@ class WidgetLogo extends StatelessWidget {
     return Center(
       child: Image.asset(
         "assets/images/logo.png",
-        height: 250,
-        width: 250,
+        height: 220,
+        width: 200,
       ),
     );
   }

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:ui_login_page/config/themes/theme.dart';
-import 'package:ui_login_page/screens/login_screen.dart';
 import 'package:ui_login_page/screens/sign_up_screen.dart';
 
 void main() {

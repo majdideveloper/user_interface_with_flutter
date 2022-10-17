@@ -10,10 +10,8 @@ class AppTheme {
     backgroundColor: Colors.white,
     buttonTheme: const ButtonThemeData(buttonColor: Colors.blue),
     textTheme: const TextTheme(
-      titleMedium: TextStyle(
-          color: Colors.black,
-          fontSize:
-              26), //👈 we will be able to access these in our widgets later
+      titleMedium:
+          TextStyle(color: Colors.black, fontSize: 26), //👈 we will be able to access these in our widgets later
       titleSmall: TextStyle(
         color: Colors.white,
         fontSize: 14,
